@@ -5,4 +5,5 @@
 ## Índice
 
 - [Delphi](delphi/)
+  - [Operadores](delphi/operadores.md)
   - [Coerção de tipos](delphi/coercao.md)
