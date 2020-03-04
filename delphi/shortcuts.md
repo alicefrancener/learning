@@ -1,7 +1,7 @@
 # Shortcuts Delphi
 
 Shortcut | Menu | Ação
-- | - | -
+-|-|-
 Ctrl + D | Edit > Format Source| Formatar o código
 Ctrl+Space | (Options): Tools > Options > Editor Options > Code Insight | Code completion
 F12 | View > Toggle Form/Unit | Muda a view entre Form e Code Unit
@@ -13,5 +13,5 @@ Shift+Ctrl+F9 | Run > Run Without Debugging | Compila arquivos modificados, exec
 
 ---
 
-[Default Keyboard Shortcuts](http://docwiki.embarcadero.com/RADStudio/Rio/en/Default_Keyboard_Shortcuts)
-[Code completion](http://docwiki.embarcadero.com/RADStudio/Rio/en/Code_Completion),
+- [Default Keyboard Shortcuts](http://docwiki.embarcadero.com/RADStudio/Rio/en/Default_Keyboard_Shortcuts)
+- [Code completion](http://docwiki.embarcadero.com/RADStudio/Rio/en/Code_Completion),
