@@ -1,6 +1,6 @@
 # :notebook: Commonplace book
 
-*Commonplace book* é um local para armazenar aprendizado/infomação importantes para referência futura.
+*Commonplace book* é um local para armazenar aprendizado/infomação importantes para referência futura. Aqui estão reunidas notas de estudos e aprendizados que obtive de diversos lugares (cursos, livros, StackOverflow, aulas, ...) e que posso consultar quando preciso.
 
 ## Índice
   
@@ -30,6 +30,7 @@
   - [Loops](javascript/loops.md)
   - [Funções](javascript/functions.md)
   - [Arrays](javascript/arrays.md)
+  - [Objetos](javascript/objetos.md)
 - [Object Pascal/Delphi](delphi/)
   - [Shortcuts Delphi](delphi/shortcuts.md)
   - [Operadores](delphi/operadores.md)
