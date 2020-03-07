@@ -25,6 +25,8 @@
   - [Coerção de tipos](delphi/coercao.md)
 - [Python](python/)
   - [Basic](python/basic.md)
+- [Git/GitHub](git/)
+  - [Como combinar dois repositórios](git/merge-repos.md)
 - [Vagrant](vagrant/)
   - [Basics](vagrant/basics.md)
   - [Configuração da rede](vagrant/configuracao-rede.md)
