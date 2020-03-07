@@ -28,6 +28,8 @@
 - [Git/GitHub](git/)
   - [Guidelines para commit messages](git/commit-messages-guidelines.md)
   - [Como combinar dois repositórios](git/merge-repos.md)
+- [Linux](/linux)
+  - [Vi comandos](/linux/vi-comandos.md)
 - [Vagrant](vagrant/)
   - [Basics](vagrant/basics.md)
   - [Configuração da rede](vagrant/configuracao-rede.md)
