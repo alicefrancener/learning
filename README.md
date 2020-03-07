@@ -26,6 +26,7 @@
 - [Python](python/)
   - [Basic](python/basic.md)
 - [Git/GitHub](git/)
+  - [Guidelines para commit messages](git/commit-messages-guidelines.md)
   - [Como combinar dois repositórios](git/merge-repos.md)
 - [Vagrant](vagrant/)
   - [Basics](vagrant/basics.md)
