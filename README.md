@@ -26,6 +26,7 @@
 - [JavaScript](javascript/)
   - [Basics](javascript/basics.md)
   - [Tipos de dados e variáveis](javascript/data-types-variables.md)
+  - [Condicionais](javascript/condicionais.md)
 - [Object Pascal/Delphi](delphi/)
   - [Shortcuts Delphi](delphi/shortcuts.md)
   - [Operadores](delphi/operadores.md)
