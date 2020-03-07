@@ -7,6 +7,7 @@
   - [Engenharia de Software](#engenharia-de-software)
     - Design
   - [Linguagens e tecnologias](#linguagens-e-tecnologias)
+    - JavaScript
     - Object Pascal/Delphi
     - Python
     - SQL
@@ -22,12 +23,14 @@
 
 ### Linguagens e tecnologias
 
+- [JavaScript](javascript/)
+  - [Basics](javascript/basics.md)
 - [Object Pascal/Delphi](delphi/)
   - [Shortcuts Delphi](delphi/shortcuts.md)
   - [Operadores](delphi/operadores.md)
   - [Coerção de tipos](delphi/coercao.md)
 - [Python](python/)
-  - [Basic](python/basic.md)
+  - [Basics](python/basic.md)
 - [SQL](sql/)
   - [Formatting queries](sql/formatting-queries.md)
   - [Comandos básicos](sql/basics.md) e [queries](sql/basics.sql)
