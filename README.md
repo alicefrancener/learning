@@ -29,6 +29,7 @@
   - [Condicionais](javascript/condicionais.md)
   - [Loops](javascript/loops.md)
   - [Funções](javascript/functions.md)
+  - [Arrays](javascript/arrays.md)
 - [Object Pascal/Delphi](delphi/)
   - [Shortcuts Delphi](delphi/shortcuts.md)
   - [Operadores](delphi/operadores.md)
