@@ -30,7 +30,7 @@
   - [Basic](python/basic.md)
 - [SQL](sql/)
   - [Formatting queries](sql/formatting-queries.md)
-  - [SQL basic commands](sql/basics.md)
+  - [Comandos básicos](sql/basics.md) e [queries](sql/basics.sql)
   - Links:
     - [SQLite vs MySQL vs PostgreSQL: A Comparison Of Relational Database Management Systems](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
 - [Git/GitHub](git/)
