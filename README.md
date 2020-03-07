@@ -9,11 +9,13 @@
   - [Linguagens e tecnologias](#linguagens-e-tecnologias)
     - Object Pascal/Delphi
     - Python
+    - Vagrant
 
 ## Engenharia de Software
 
   - [Design](design/)
     - [Basics](design/basics.md)
+    - [API design guidelines](design/api-design-guidelines.md)
 
 ## Linguagens e tecnologias
 
@@ -23,3 +25,7 @@
   - [Coerção de tipos](delphi/coercao.md)
 - [Python](python/)
   - [Basic](python/basic.md)
+- [Vagrant](vagrant/)
+  - [Basics](vagrant/basics.md)
+  - [Configuração da rede](vagrant/configuracao-rede.md)
+  - [Lidando com o SSH](vagrant/ssh.md)
