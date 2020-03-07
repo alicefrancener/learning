@@ -3,16 +3,23 @@
 *Commonplace book* é um local para armazenar aprendizado/infomação importantes para referência futura.
 
 ## Índice
+  
+  - [Engenharia de Software](#engenharia-de-software)
+    - Design
+  - [Linguagens e tecnologias](#linguagens-e-tecnologias)
+    - Object Pascal/Delphi
+    - Python
 
-  - [Object Pascal/Delphi](#object-pascaldelphi)
-  - [Python](#python)
+## Engenharia de Software
 
-### Object Pascal/Delphi
+  - [Design](design/)
+    - [Basics](design/basics.md)
 
+## Linguagens e tecnologias
+
+- [Object Pascal/Delphi](delphi/)
   - [Shortcuts Delphi](delphi/shortcuts.md)
   - [Operadores](delphi/operadores.md)
   - [Coerção de tipos](delphi/coercao.md)
-
-### Python
-
-  - [Basic](python/basic)
+- [Python](python/)
+  - [Basic](python/basic.md)
