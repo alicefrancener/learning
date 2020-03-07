@@ -9,15 +9,18 @@
   - [Linguagens e tecnologias](#linguagens-e-tecnologias)
     - Object Pascal/Delphi
     - Python
+    - SQL
+    - Git/GitHub
+    - Linux
     - Vagrant
 
-## Engenharia de Software
+### Engenharia de Software
 
   - [Design](design/)
     - [Basics](design/basics.md)
     - [API design guidelines](design/api-design-guidelines.md)
 
-## Linguagens e tecnologias
+### Linguagens e tecnologias
 
 - [Object Pascal/Delphi](delphi/)
   - [Shortcuts Delphi](delphi/shortcuts.md)
@@ -25,6 +28,8 @@
   - [Coerção de tipos](delphi/coercao.md)
 - [Python](python/)
   - [Basic](python/basic.md)
+- [SQL](sql/)
+  - [Formatting queries](sql/formatting-queries.md)
 - [Git/GitHub](git/)
   - [Guidelines para commit messages](git/commit-messages-guidelines.md)
   - [Como combinar dois repositórios](git/merge-repos.md)
