@@ -30,6 +30,7 @@
   - [Como combinar dois repositórios](git/merge-repos.md)
 - [Linux](/linux)
   - [CLI: compactar de descompactar](linux/cli-compactar-descompactar.md)
+  - [CLI: ver conteúdo arquivo](linux/cli-ler-conteudo-arquivos.md)
   - [CLI: Vi comandos](/linux/vi-comandos.md)
 - [Vagrant](vagrant/)
   - [Basics](vagrant/basics.md)
