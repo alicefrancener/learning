@@ -15,6 +15,7 @@ Python:
   - usa novas linhas para indicar um comando diferente de outras linguagens que utilizam `;`
   - escopo é definido por indentação (ao invés de `{}`)
   - utiliza por convenção o padrão Snake_Case para nomes de variáveis (ou identificadores).
+  - não faz conversão implícita
 
 ## Execução
 
