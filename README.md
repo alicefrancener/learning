@@ -56,3 +56,4 @@
   - [Basics](vagrant/basics.md)
   - [Configuração da rede](vagrant/configuracao-rede.md)
   - [Lidando com o SSH](vagrant/ssh.md)
+  - [Provisionando](vagrant/provisioning.md)
