@@ -52,6 +52,8 @@
   - [CLI: compactar de descompactar](linux/cli-compactar-descompactar.md)
   - [CLI: ver conteúdo arquivo](linux/cli-ler-conteudo-arquivos.md)
   - [CLI: Vi comandos](/linux/vi-comandos.md)
+  - Links:
+    - [O que é comando `curl` e como usar?](https://www.hostinger.com.br/tutoriais/comando-curl-linux/)
 - [Vagrant](vagrant/)
   - [Basics](vagrant/basics.md)
   - [Configuração da rede](vagrant/configuracao-rede.md)
