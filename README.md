@@ -11,9 +11,11 @@
     - Object Pascal/Delphi
     - Python
     - SQL
+    - NoSQL
     - Git/GitHub
     - Linux
     - Vagrant
+    - Outros
 
 ### Engenharia de Software
 
@@ -45,6 +47,8 @@
   - [Comandos básicos](sql/basics.md) e [queries](sql/basics.sql)
   - Links:
     - [SQLite vs MySQL vs PostgreSQL: A Comparison Of Relational Database Management Systems](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
+- [NoSQL](nosql/)
+  - [MongoDB basics](nosql/mongodb-basics.md)
 - [Git/GitHub](git/)
   - [Guidelines para commit messages](git/commit-messages-guidelines.md)
   - [Tags](git/tags.md)
