@@ -61,3 +61,5 @@
   - [Configuração da rede](vagrant/configuracao-rede.md)
   - [Lidando com o SSH](vagrant/ssh.md)
   - [Provisionando](vagrant/provisioning.md)
+- [Outros](outros/)
+  - [Performance web: front-end](outros/performance-front-end.md)
