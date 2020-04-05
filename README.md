@@ -49,6 +49,7 @@
     - [SQLite vs MySQL vs PostgreSQL: A Comparison Of Relational Database Management Systems](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
 - [NoSQL](nosql/)
   - [MongoDB basics](nosql/mongodb-basics.md)
+  - [MongoDB busca por distância](nosql/mongodb-geospatial.md)
 - [Git/GitHub](git/)
   - [Guidelines para commit messages](git/commit-messages-guidelines.md)
   - [Tags](git/tags.md)
