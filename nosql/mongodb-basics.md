@@ -6,8 +6,11 @@
   - [Consultar com OR e IN](#consultar-com-or-e-in)
   - [Update](#update)
   - [Update array](#update-array)
+  - [Ordenar](#ordenar)
 
 ## Criar coleção, inserir e remover
+
+- Operadores: https://docs.mongodb.com/manual/reference/operator/query/
 
 ```bash
 # criar coleção
@@ -29,12 +32,6 @@ db.alunos.insert({
     ]
    })
 
-# listar registros (pretty - formatado)
-db.alunos.find()
-db.alunos.find().pretty()
-db.alunos.find({nome: "Felipe"}).pretty()
-db.alunos.find({"habilidades.nome": "inglês" }).pretty()
-
 # remover registro
 db.alunos.remove({
   "_id" : ObjectId ("56cb0002b6d75ec12f75d3b5")
@@ -50,6 +47,23 @@ db.alunos.find()
 db.alunos.find().pretty()
 db.alunos.find({nome: "Felipe"}).pretty()
 db.alunos.find({"habilidades.nome": "inglês" }).pretty()
+```
+
+```bash
+# encontrar maiores que ($gt: greater than)
+db.alunos.find({
+  "notas": { $gt : 5}
+})
+```
+```bash
+# encontrar só um
+db.alunos.findOne({
+  "notas": 5
+})
+
+# limitar os resultados
+db.alunos.find().limit(3)
+
 ```
 
 - Referência para comandos `find`
@@ -137,6 +151,17 @@ db.alunos.update(
     }
   )
   ```
+
+## Ordenar
+
+  ```bash
+  # ordenar um campo ordem crescente
+  db.alunos.find().sort({"nome": 1})
+  
+  # ordenar em ordem decrescente
+  db.alunos.find().sort({"nome": -1})
+  ```
+
 
 - Referência para operadores update de array
 https://docs.mongodb.com/manual/reference/operator/update-array/
