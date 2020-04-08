@@ -1,7 +1,7 @@
 # Buscar por distância
 
 - Incluir informações geoespaciais
-  -  localização geográfica no MongoDB necessita de dois valores que são obrigatórios, o `coordinates`, que é latitude e longitude e o `type
+  -  localização geográfica no MongoDB necessita de dois valores que são obrigatórios, o `coordinates`, que é latitude e longitude e o `type`
   -  outras informações, como país e endereço, são opcionais
   
   ```bash
@@ -55,5 +55,5 @@
 
 ---
 
-https://docs.mongodb.com/manual/reference/operator/query-geospatial/
-https://www.alura.com.br/curso-online-mongodb
+- https://docs.mongodb.com/manual/reference/operator/query-geospatial/
+- https://www.alura.com.br/curso-online-mongodb
