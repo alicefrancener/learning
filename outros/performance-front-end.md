@@ -180,12 +180,20 @@ https://www.alura.com.br/curso-online-otimizacao-performance-web
   ```
   location /assets {
       expires 1d;
-      add_header public;
+      add_header Cache-Control public;
   }
   ```
 
 - No caso do recurso mudar de usuário para usuário, então, intermediários não podem cachear. Uma alternativa é mudar para `private` que significa que apenas o usuário final poderá cachear esse recurso
 - Em geral, para script, imagens e outros, deixamos `cache-control` no modo `public` o que indica que qualquer um pode fazer o cacheamento
+
+- Qual seria o tempo ideal para deixar os recursos cachearem? Queremos que nossos recursos sejam o máximo possível cacheados e que um mínimo deles sejam baixados novamente.
+  - O problema de deixar `expires 1y` (1 ano) seria no caso de mudarmos algum arquivo e ele não ser baixado novamente
+  - Quando falamos para um navegador que temos um expires de um ano ele cacheia a url que foi apontada pelo html. Uma técnica que podemos utilizar é deixar o expires alto, como mais ou menos um ano, mas, quando formos fazer alguma alteração em um arquivo renomeá-lo. Assim o navegador irá baixar o novo arquivo
+- Automatizando:
+  - toda vez que fizermos modificação em arquivo, podemos acrescentar um novo nome ao final do arquivo
+  - utilizando `revplace` com `gulp` automatizamos isso
+- Para o html o ideal é não usar expires, somente para assets (css, js, imagens) 
 
 ## Ferramentas
 
