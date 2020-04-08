@@ -13,6 +13,7 @@
     - [Sprites em PNG](#sprites-em-png)
     - [Sprites em SVG](#sprites-em-svg)
   - [Paralelizar requests](#paralelizar-requests)
+  - [Cache HTTP](#cache-http)
   - [Ferramentas](#ferramentas)
     - [Chrome DevTools](#chrome-devtools)
     - [Sites de análise de performance](#sites-de-an%c3%a1lise-de-performance)
@@ -139,6 +140,52 @@ https://www.alura.com.br/curso-online-otimizacao-performance-web
 - Usando hostnames distintos cada um poderá ter 6 conexões simultâneas
 - Basta alterar no HTML os requests que queremos jogar pra o endereço paralelo, ma boa ideia é jogar as imagens para carregarem por outro hostname
 - De dois a três hostnames é o ideal, uma vez que muitos hostnames paralelos podem causar congestionamento na rede e atrasar o browser
+
+## Cache HTTP
+
+- Por padrão o navegador não faz cache
+- A configuração do que pode ser cacheado é feita pelo servidor através dos headers de http
+- Exemplo no nginx:
+
+  ```
+  server {
+    listen 3030;
+    root path/to/dist;
+    expires 1d;
+  }
+  ```
+
+- `expires` refere-se até quando o navegador pode guardar aquele recurso em cache (nesse caso 1 dia)
+- Mas nem sempre queremos deixar todos os recursos com possibilidade de serem cacheados (css e js podem ser boas opções, mas html geralmente não é)
+- Podemos indicar qual localização dos arquivos que quero permiter cacheamento (exemplo, todos da pasta assets):
+
+  ```
+  server {
+    listen 3030;
+    root path/to/dist;
+
+    location /assets {
+      expires 1d;
+    }
+  }
+  ```
+
+- Além do header `expires`, há o `cache control`:
+  - private (somente o navegador do usuário pode cachear)
+  - public (os intermediários podem cachear)
+
+- Por padrão, o navegador que faz cache, porém, entre o navegador e o servidor existem intermediários na rede que podem cachear também 
+- Para isso, adicionar o header public
+
+  ```
+  location /assets {
+      expires 1d;
+      add_header public;
+  }
+  ```
+
+- No caso do recurso mudar de usuário para usuário, então, intermediários não podem cachear. Uma alternativa é mudar para `private` que significa que apenas o usuário final poderá cachear esse recurso
+- Em geral, para script, imagens e outros, deixamos `cache-control` no modo `public` o que indica que qualquer um pode fazer o cacheamento
 
 ## Ferramentas
 
