@@ -10,6 +10,8 @@ Shift+F12 | View > Forms | Busca por Forms
 F9 | Run > Run | Compila arquivos modificados e executa aplicação com debugador
 Ctrl+F9 | Project > Compile <project_name> (Delphi) | Compila somente arquivos que mudaram
 Shift+Ctrl+F9 | Run > Run Without Debugging | Compila arquivos modificados, executa a aplicação sem debugador
+Ctrl+F / Ctrl+Q+F | Search > Find | Procurar um determinado texto no arquivo atual
+F3 / Ctrl L | Search > Search Again | Produra a próxima ocorrência de uma busca
 
 ---
 
