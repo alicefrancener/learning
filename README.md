@@ -66,6 +66,8 @@
   - [Configuração da rede](vagrant/configuracao-rede.md)
   - [Lidando com o SSH](vagrant/ssh.md)
   - [Provisionando](vagrant/provisioning.md)
-- [Outros](outros/)
+- [Performance front-end](outros/)
   - [Performance web: front-end](outros/performance-front-end.md)
-	- [Exemplo Gulpfile](outros/gulpfile.js)
+  - [Exemplo Gulpfile](outros/gulpfile.js)
+  - Links:
+    - [Case studies and experimentation | Web Performance Optimization](https://wpostats.com/)
