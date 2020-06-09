@@ -1,29 +1,10 @@
 # :notebook: Commonplace book
 
-*Commonplace book* é um local para armazenar aprendizado/infomação importantes para referência futura. Aqui estão reunidas notas de estudos e aprendizados que obtive de diversos lugares (cursos, livros, StackOverflow, aulas, ...) e que posso consultar quando preciso.
+_Commonplace book_ é um local para armazenar aprendizado/infomação importantes para referência futura. Aqui estão reunidas notas de estudos e aprendizados que obtive de diversos lugares (cursos, livros, StackOverflow, aulas, ...) e que posso consultar quando preciso.
 
 ## Índice
-  
-  - [Engenharia de Software](#engenharia-de-software)
-    - Design
-  - [Linguagens e tecnologias](#linguagens-e-tecnologias)
-    - JavaScript
-    - Object Pascal/Delphi
-    - Python
-    - SQL
-    - NoSQL
-    - Git/GitHub
-    - Linux
-    - Vagrant
-    - Outros
 
-### Engenharia de Software
-
-  - [Design](design/)
-    - [Basics](design/basics.md)
-    - [API design guidelines](design/api-design-guidelines.md)
-
-### Linguagens e tecnologias
+### Linguagens de programação
 
 - [JavaScript](javascript/)
   - [Basics](javascript/basics.md)
@@ -33,7 +14,6 @@
   - [Funções](javascript/functions.md)
   - [Arrays](javascript/arrays.md)
   - [Objetos](javascript/objetos.md)
-  - [Básido de projeto Node.js com Express](javascript/basics-nodejs-express)
 - [Object Pascal/Delphi](delphi/)
   - [Shortcuts Delphi](delphi/shortcuts.md)
   - [Operadores](delphi/operadores.md)
@@ -42,6 +22,9 @@
   - [Basics](python/basics.md)
   - [Operadores](python/operadores.md)
   - [Tipos de dados e variáveis](python/data-types-variables.md)
+
+### Banco de dados
+
 - [SQL](sql/)
   - [Formatting queries](sql/formatting-queries.md)
   - [Comandos básicos](sql/basics.md) e [queries](sql/basics.sql)
@@ -50,6 +33,9 @@
 - [NoSQL](nosql/)
   - [MongoDB basics](nosql/mongodb-basics.md)
   - [MongoDB busca por distância](nosql/mongodb-geospatial.md)
+
+### DevOps
+
 - [Git/GitHub](git/)
   - [Guidelines para commit messages](git/commit-messages-guidelines.md)
   - [Tags](git/tags.md)
@@ -66,8 +52,21 @@
   - [Configuração da rede](vagrant/configuracao-rede.md)
   - [Lidando com o SSH](vagrant/ssh.md)
   - [Provisionando](vagrant/provisioning.md)
-- [Performance front-end](outros/)
-  - [Performance web: front-end](outros/performance-front-end.md)
+
+### Back end | Front-end
+
+- Node
+  - [Básido de projeto Node.js com Express](javascript/basics-nodejs-express)
+- [React](react/)
+  - [React basics](react/basic-react.md)
+
+### Outros
+
+- [Performance](outros/)
+  - [Performance web](outros/performance-front-end.md)
   - [Exemplo Gulpfile](outros/gulpfile.js)
   - Links:
     - [Case studies and experimentation | Web Performance Optimization](https://wpostats.com/)
+- [Design](design/)
+  - [Basics](design/basics.md)
+  - [API design guidelines](design/api-design-guidelines.md)
