@@ -141,6 +141,107 @@ class Calendar extends React.Component {
 
 ```
 
+## Use Default Props
+
+- React also has an option to set default props
+- This allows you to specify what a prop value should be if no value is explicitly provided
+
+```jsx
+const ShoppingCart = (props) => {
+  return (
+    <div>
+      <h1>Shopping Cart Component</h1>
+    </div>
+  )
+};
+
+ShoppingCart.defaultProps = {items: 0}
+```
+
+## Override Default Props
+
+```jsx
+const Items = (props) => {
+  return <h1>Current Quantity of Items in Cart: {props.quantity}</h1>
+}
+
+Items.defaultProps = {
+  quantity: 0
+}
+
+class ShoppingCart extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return <Items quantity={10}/>
+  }
+};
+```
+
+## Use PropTypes to Define the Props You Expect
+
+- React provides useful type-checking features to verify that components receive props of the correct type
+- It's considered a best practice to set propTypes when you know the type of a prop ahead of time
+- Note: As of React v15.5.0, PropTypes is imported independently from React, like this: `import PropTypes from 'prop-types';`
+
+```jsx
+const Items = (props) => {
+  return <h1>Current Quantity of Items in Cart: {props.quantity}</h1>
+};
+
+Items.propTypes = { 
+  quantity: PropTypes.number.isRequired
+  };
+Items.defaultProps = {
+  quantity: 0
+  };
+
+class ShoppingCart extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return <Items />
+  }
+};
+```
+
+# Access Props Using this.props
+
+- But what if the child component that you're passing a prop to is an ES6 class component, rather than a stateless functional component? - Anytime you refer to a class component within itself, you use the `this` keyword. For example, if an ES6 class component has a `prop` called `data`, you write `{this.props.data}` in JSX.
+
+```jsx
+class ReturnTempPassword extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+        <div>
+            <p>Your temporary password is: <strong>{this.props.tempPassword}</strong></p>
+        </div>
+    );
+  }
+};
+
+class ResetPassword extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+        <div>
+          <h2>Reset Password</h2>
+          <h3>We've generated a new temporary password for you.</h3>
+          <h3>Please reset this password from your account settings ASAP.</h3>
+            <ReturnTempPassword tempPassword="temporary123"/>
+        </div>
+    );
+  }
+};
+```
+
 ***
 
 Fonte: [Freecodecamp - React](https://www.freecodecamp.org/learn/front-end-libraries/react)
