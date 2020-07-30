@@ -1,7 +1,7 @@
 # Performance front-end
 
-- [Performance web](outros/performance-front-end.md)
-- [Exemplo Gulpfile](outros/gulpfile.js)
+- [Performance web](./performance-front-end.md)
+- [Exemplo Gulpfile](./gulpfile.js)
 - Links:
   - [Case studies and experimentation | Web Performance Optimization](https://wpostats.com/)
   - [Web Dev](https://web.dev/)
