@@ -12,6 +12,10 @@ Ctrl+F9 | Project > Compile <project_name> (Delphi) | Compila somente arquivos q
 Shift+Ctrl+F9 | Run > Run Without Debugging | Compila arquivos modificados, executa a aplicação sem debugador
 Ctrl+F / Ctrl+Q+F | Search > Find | Procurar um determinado texto no arquivo atual
 F3 / Ctrl L | Search > Search Again | Produra a próxima ocorrência de uma busca
+Ctrl+; | - |Adds or removes // to each line in the selected code block to comment the code
+F8 | Run > Step Over | Debugador executa próxima linha (não entra em funções)
+F7 | Run > Trace Into | Debugador executa próxima linha (entra em funções, se tiver)
+Shift+F8 | Run > Run Until Return | Debugador executa a função e para ao retorno dela 
 
 ---
 
