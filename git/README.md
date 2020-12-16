@@ -1,5 +1,8 @@
 # Git
 
+## GitHub CLI
+- [Installing gh on Linux](https://github.com/cli/cli/blob/trunk/docs/install_linux.md) 
+
 ## CLI
   - :raising_hand: [Tags](./tags.md)
   - :raising_hand: [Branch](./branch.md)
