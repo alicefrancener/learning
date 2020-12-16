@@ -1,5 +1,8 @@
 # Git
 
+## Fork
+- [How to Update Fork Repo From Original Repo](https://levelup.gitconnected.com/how-to-update-fork-repo-from-original-repo-b853387dd471)
+
 ## GitHub CLI
 - [Installing gh on Linux](https://github.com/cli/cli/blob/trunk/docs/install_linux.md) 
 
