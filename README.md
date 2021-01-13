@@ -5,13 +5,12 @@
 
 ## Categories
 
-- [Arquitetura](arquitetura/)
 - [AWS](aws/)
-- [CSS](css/)
 - [Delphi](delphi/)
 - [Design](design/)
 - [Git](git/)
 - [Human-Computer Interaction](hci/)
+- [HTML/CSS](html-css/)
 - [JavaScript](javascript/)
 - [Linux](linux/)
 - [Markdown](markdown/)
@@ -20,7 +19,7 @@
 - [Operating Systems](sistemas-operacionais/)
 - [Outros](outros/)
 - [Python](python/)
-- [React](react/)
+- [ReactJS](react/)
 - [Software Architecture](arquitetura/)
 - [Software Design](design/)
 - [SQL](sql/)
