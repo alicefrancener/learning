@@ -7,6 +7,7 @@
       <head></head>
       <body></body>
     </html>
+  ```
 
 - How to add a favicon to your website with HTML?
   ```html
