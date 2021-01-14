@@ -34,3 +34,27 @@
     }
   ```
 
+- How to add an icon in HTML?
+  - The `<i>` and `<span>` elements are widely used to add icons
+
+  ```html
+    <head>
+      <script src="https://kit.fontawesome.com/yourcode.js"></script>
+      <!--Get your code at fontawesome.com-->
+    </head>
+
+    <body>
+      <i class="fas fa-band-aid fa-3x"></i>
+    </body>
+  ```
+
+- How to add an YouTube video in HTML?
+  - Define an `<iframe>` element in your web page
+  - Let the `src` attribute point to the video URL
+  - Use the `width` and `height` attributes to specify the dimension of the player
+  
+  ```html
+  <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+  </iframe>
+  ```
