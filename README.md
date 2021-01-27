@@ -1,8 +1,13 @@
-# :notebook: Learning
+# My Learning Tracker
  
  This repo contains notes of topics I've studied and reference material. It also contains a list of courses I've taken.
 
-## Categories
+ - [Notes and resources by subject](#card_file_box-notes-and-resources)
+ - [Courses](#notebookcourses)
+
+## :card_file_box: Notes and resources
+
+Notes and resources by subject.
 
 - [AWS](aws/)
 - [Delphi](delphi/)
@@ -24,7 +29,9 @@
 - [SQL](sql/)
 - [Vagrant](vagrant/)
 
-## Courses
+## :notebook:	Courses
+
+List of completed courses.
 
 | Status             | Year      | Course                                                                | Tutor                      |
 | ------------------ | --------- | --------------------------------------------------------------------- | -------------------------- |
