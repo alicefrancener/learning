@@ -1,4 +1,4 @@
-# My Learning Tracker
+# My Learning Tracker == Personal Wiki
  
  This repo contains notes of topics I've studied and reference material. It also contains a list of courses I've taken.
 
@@ -9,6 +9,7 @@
 
 Notes and resources by subject.
 
+- [Architecture](architecture/)
 - [AWS](aws/)
 - [Delphi](delphi/)
 - [Design](design/)
@@ -20,14 +21,12 @@ Notes and resources by subject.
 - [Markdown](markdown/)
 - [NodeJS](nodejs/)
 - [NoSQL](nosql/)
-- [Operating Systems](sistemas-operacionais/)
-- [Outros](outros/)
+- [Operating Systems](operating-system/)
 - [Python](python/)
 - [ReactJS](react/)
-- [Software Architecture](arquitetura/)
-- [Software Design](design/)
 - [SQL](sql/)
 - [Vagrant](vagrant/)
+- [Web](web/)
 
 ## :notebook:	Courses
 
@@ -35,7 +34,7 @@ List of completed courses.
 
 | Status             | Year      | Course                                                                | Tutor            |
 | ------------------ | --------- | --------------------------------------------------------------------- | ---------------- |
-| :white_check_mark: | Jan 2021  | [Responsive Web Design]                   | [freeCodeCamp]          |
+| :white_check_mark: | Jan 2021  | [Responsive Web Design]                                               | [freeCodeCamp]   |
 | :white_check_mark: | Nov 2020  | [Criando um ambiente de Desenvolvimento no Windows]                   | [Udemy]          |
 | :white_check_mark: | Apr 2020  | [Performance Web I: otimizando o front-end]                           | [Alura]          |
 | :white_check_mark: | Apr 2020  | [MongoDB: Uma alternativa aos bancos relacionais tradicionais]        | [Alura]          |
