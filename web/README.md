@@ -1,6 +1,6 @@
 # Web
 
-- [Resources](./resouces.md)
+- [Resources](./resources.md)
 - [Questions](./questions.md)
 - Outros
   - [Performance web](./performance-front-end.md)
