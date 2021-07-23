@@ -8,6 +8,15 @@
 3. Authenticate to start using as postgres user: `psql -h localhost -p 5432 -U postgres -W`
 4. Enter the password used while creating the PSQL server container
 
+## Meta commands
+[Meta commands in PSQL][postgresql-02]
+
+- `\l`  or `\list`: list all databases
+- `\c` or `\connect`: connect to the database
+- `\dt`: list all database tables
+- `\dt+`: list all database tables with information
+
 <!--- References --->
 
 [postgresql-01]: https://dev.to/shree_j/how-to-install-and-run-psql-using-docker-41j2
+[postgresql-02]: https://dataschool.com/learn-sql/meta-commands-in-psql/
