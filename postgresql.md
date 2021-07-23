@@ -15,6 +15,7 @@
 - `\c` or `\connect`: connect to the database
 - `\dt`: list all database tables
 - `\dt+`: list all database tables with information
+- `\d+ <table_name>`: show columns/data types from a specific table
 
 <!--- References --->
 
