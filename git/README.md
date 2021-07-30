@@ -8,6 +8,11 @@
 - [Guidelines para commit messages](./commit-messages-guidelines.md)
 - [Professional Guides: Workflow Strategies](https://www.youtube.com/watch?v=aJnFGMclhU8)
 
+## How to
+### Disable all paging in git
+- [git-config](https://git-scm.com/docs/git-config#Documentation/git-config.txt-corepager)
+- `git config --global core.pager cat`
+
 
 ## File's states
 [Git Basics - Recording Changes to the Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
