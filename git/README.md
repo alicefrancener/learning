@@ -9,10 +9,17 @@
 - [Professional Guides: Workflow Strategies](https://www.youtube.com/watch?v=aJnFGMclhU8)
 
 ## How to
-### Disable all paging in git
-- [git-config](https://git-scm.com/docs/git-config#Documentation/git-config.txt-corepager)
-- `git config --global core.pager cat`
+- **Disable all paging in git**: [link](https://git-scm.com/docs/git-config#Documentation/git-config.txt-corepager)
+  - `git config --global core.pager cat`
 
+- **Track a remote branch locally**: [link](https://git-scm.com/docs/git-checkout)
+  - `git checkout --track <remote>/<branch>`
+
+- **Move a commit to another branch in git**: [link](https://dev.to/projectpage/how-to-move-a-commit-to-another-branch-in-git-4lj4) 
+  - In the target branch
+    - `git cherry-pick <commit SHA>`
+  - Change to the other branch and delete the commit
+    - `git reset --hard <commit SHA>` 
 
 ## File's states
 [Git Basics - Recording Changes to the Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
