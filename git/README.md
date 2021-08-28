@@ -13,13 +13,20 @@
   - `git config --global core.pager cat`
 
 - **Track a remote branch locally**: [link](https://git-scm.com/docs/git-checkout)
-  - `git checkout --track <remote>/<branch>`
+  - A. `git checkout --track <remote>/<branch>`
+  - B. `git checkout -b fix-failing-tests origin/fix-failing-tests`
+    - it creates a new branch called fix-failing-tests
+    - it checkouts that branch
+    - it pulls changes from origin/fix-failing-tests to that branch
 
 - **Move a commit to another branch in git**: [link](https://dev.to/projectpage/how-to-move-a-commit-to-another-branch-in-git-4lj4) 
   - In the target branch
     - `git cherry-pick <commit SHA>`
   - Change to the other branch and delete the commit
     - `git reset --hard <commit SHA>` 
+
+- `git branch -a`: See both local and remote branches
+- `git branch -r`: See only remote branches
 
 ## File's states
 [Git Basics - Recording Changes to the Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
