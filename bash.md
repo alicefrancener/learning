@@ -1,5 +1,15 @@
 # bash: Bourne Again SHell
 
+## Resources
+
+- [awesome-shell](https://github.com/alebcay/awesome-shell)
+- [bash-guide](https://github.com/Idnan/bash-guide)
+- [Bash reference manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#Introduction)
+- [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial/basics)
+- [Learn Shell](https://www.learnshell.org/)
+- [Learn X in Y minutes](https://learnxinyminutes.com/docs/bash/)
+- [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
+
 ## cURL(client URL)
 
 ### Format JSON response from curl
