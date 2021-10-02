@@ -39,3 +39,19 @@
     - `git config --global user.email email@email.com`
     - `git config --global core.editor vim`
     - `git config --global core.pager cat`
+
+### git status
+
+- `git status`
+- `git status -s` or `git status --short`
+    - left column (file is staged), right column (modified)
+    - `??` untracked files
+    - `A` added to staging area
+    - `M` modified files
+    - ...
+
+
+### git diff
+
+- `git diff`: show changes that are still unstaged
+- `git diff --cached`: what you've staged so far
