@@ -19,7 +19,7 @@
     - you stage the files, adding snapshots of them to your staging area
     - you do a commit, which stores the files in the staging area permanently to your git directory
 
-## Getting help
+### Getting help
 
 - `git help <verb>`
 - `git <verb> --help`
@@ -33,7 +33,8 @@
     - `.git/config` config file in you Git directory is specific to that repository
   
 - Commands:
-    - `git config --list`: list all the settings
+    - `git config --list`: list settings
+    - `git config --list --global`: list global settings
     - `git config user.name`: shows the config
     - `git config --global user.name "Name"`
     - `git config --global user.email email@email.com`
@@ -41,17 +42,35 @@
     - `git config --global core.pager cat`
 
 ### git status
-
 - `git status`
 - `git status -s` or `git status --short`
-    - left column (file is staged), right column (modified)
+    - left column (staging area), right column (working tree)
     - `??` untracked files
     - `A` added to staging area
     - `M` modified files
     - ...
 
-
 ### git diff
-
 - `git diff`: show changes that are still unstaged
-- `git diff --cached`: what you've staged so far
+- `git diff --cached` or `git diff --staged`: what you've staged so far
+- `git difftool`: using a tool to see git diffs
+  - `git config --global diff.tool vimdiff : config vimdiff as default tool
+  - `git difftool -t vimdiff`: select a tool to use in diff
+
+### git commit
+- `git commit -v`: show diffs before commit
+- `git commit -m "<commit message>"`: commit without openning the editor
+
+### git rm
+- `git rm <filename>`: remove from staging area and working directory (delete the file)
+- `git rm <filename> -f`: force removal
+- `git rm <filename> --cached`: remove from staging area only and keep the file
+
+### git mv
+- `git mv file_from file_to`: rename a file
+- equivalent to:
+    ```bash
+    mv README.md README
+    git rm README.md
+    git add README
+    ```
