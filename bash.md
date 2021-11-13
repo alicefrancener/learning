@@ -1,5 +1,11 @@
 # bash: Bourne Again SHell
 
+## commands
+
+### copy
+- copy directory: `cp -R <source_folder> <destination_folder>`
+- copy directory content: `cp -R <source_folder>/* <destination_folder>`
+
 ## Resources
 
 - [awesome-shell](https://github.com/alebcay/awesome-shell)
