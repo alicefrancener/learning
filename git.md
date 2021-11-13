@@ -1,5 +1,18 @@
 # Git
 
+## Common
+
+- How to Delete a Git Branch Both Locally and Remotely
+```
+// delete branch locally (only if it has already been pushed/merged with the remote branch)
+git branch -d localBranchName
+
+// delete branch locally (foce deletion even if it hasn't been pushed/merge)
+git branch -D localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+```
 ## Concepts
 
 - Version Control (VS): a system that allows you to control versions of files and changes made to it in time. 
